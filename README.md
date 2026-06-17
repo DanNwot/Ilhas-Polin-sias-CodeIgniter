@@ -1,112 +1,44 @@
 # 🌴 Ilhas da Polinésia
 
-Projeto desenvolvido utilizando CodeIgniter 4, MySQL e Bootstrap.
+Sistema desenvolvido com CodeIgniter 4 para apresentar informações sobre algumas das principais ilhas da Polinésia.
 
-## 📖 Sobre o Projeto
+## 📸 Demonstração do Sistema
 
-O sistema apresenta informações sobre algumas das ilhas mais conhecidas da Polinésia, permitindo visualizar:
-
-- Nome da ilha
-- Descrição resumida
-- Imagem representativa
-- Ações de visualização e gerenciamento
-
-O objetivo do projeto é aplicar conceitos de:
-
-- PHP
-- CodeIgniter
-- Banco de Dados MySQL
-- MVC (Model View Controller)
-- Bootstrap
-- Desenvolvimento Web
-
----
+<p align="center">
+  <img src="imagens/site-polinesia.png" alt="Tela Inicial do Sistema" width="900">
+</p>
 
 ## 🏝️ Ilhas Apresentadas
 
 - Bora Bora
 - Tahiti
 - Moorea
-- Ilha de Páscoa (Rapa Nui)
+- Rapa Nui (Ilha de Páscoa)
 
----
+## ⚙️ Funcionalidades
+
+- Exibição de ilhas em cards
+- Imagens ilustrativas
+- Descrições resumidas
+- Interface responsiva
+- Integração com banco de dados MySQL
 
 ## 🛠️ Tecnologias Utilizadas
 
-- PHP 7+
+- PHP
 - CodeIgniter 4
 - MySQL
 - Bootstrap 4
 - HTML5
 - CSS3
 
----
-
-## 📂 Estrutura do Projeto
-
-```text
-app/
-├── Controllers/
-├── Models/
-└── Views/
-
-public/
-└── uploads/
-
-database/
-└── polinesia.sql
-```
-
-## 🚀 Instalação
+## 🚀 Como Executar
 
 1. Clone o repositório
-
-```bash
-git clone https://github.com/SEU_USUARIO/polinesia.git
-```
-
-2. Copie para o XAMPP
-
-```text
-xampp/htdocs/polinesia
-```
-
-3. Crie o banco:
-
-```sql
-CREATE DATABASE POLINESIA;
-```
-
-4. Importe o arquivo:
-
-```text
-database/polinesia.sql
-```
-
-5. Configure:
-
-```text
-app/Config/Database.php
-```
-
-6. Inicie Apache e MySQL pelo XAMPP.
-
-7. Acesse:
+2. Configure o banco de dados MySQL
+3. Ajuste o arquivo `app/Config/Database.php`
+4. Inicie Apache e MySQL no XAMPP
+5. Acesse:
 
 ```text
 http://localhost/polinesia/public
-```
-
----
-
-## 📸 Capturas de Tela
-
-Adicione aqui imagens do sistema.
-
----
-
-## 👨‍💻 Autor
-
-Projeto acadêmico desenvolvido para a disciplina de Desenvolvimento Web.
-
-Instituto Federal do Sul de Minas Gerais - IFSULDEMINAS
