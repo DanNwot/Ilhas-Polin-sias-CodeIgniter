@@ -1,0 +1,32 @@
+# Arquivos de ambiente
+.env
+
+# Dependências Composer
+/vendor/
+
+# Cache e logs do CodeIgniter
+/writable/cache/*
+/writable/logs/*
+/writable/session/*
+
+# Arquivos temporários
+*.log
+*.tmp
+
+# Configurações locais
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# PhpStorm
+.idea/
+
+# Arquivos de backup
+*.bak
+*.old
+
+# Logs PHP
+php_error_log
+error_log
